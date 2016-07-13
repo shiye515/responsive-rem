@@ -49,7 +49,7 @@
 
         function setRootSize() {
             var width = docEl.getBoundingClientRect().width;
-            docEl.style.fontSize = width * percent * dpr + 'px';
+            docEl.style.fontSize = width * percent + 'px';
         }
         setRootSize();
         window.addEventListener('resize', setRootSize);
