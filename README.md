@@ -1,5 +1,5 @@
 # responsive-rem
-基于 rem 的移动端响应式布局方案 [live demo](https://shiye515.github.io/responsive-rem/)
+基于 rem 的移动端响应式布局方案
 
 [![NPM version][npm-image]][npm-url]
 [![npm download][download-image]][download-url]
@@ -21,5 +21,15 @@
 初始化
 ```javascript
 import rrem from 'responsive-rem'
-rrem.init()
+rrem([designWidth[, remSize]])
 ```
+
+### designWidth
+- type: Number
+- default: 750
+- desc: 设计稿宽度
+
+### remSize
+- type: Number
+- default: 10
+- desc: 1rem 的宽度，单位px
