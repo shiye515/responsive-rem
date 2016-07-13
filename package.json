@@ -1,0 +1,23 @@
+{
+    "name": "responsive-rem",
+    "version": "0.0.0",
+    "description": "mobile responsive layout lib",
+    "main": "dist/responsive-rem.min.js",
+    "author": "shiye515 <shiye515@gmail.com>",
+    "homepage": "https://github.com/shiye515/responsive-rem",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shiye515/responsive-rem.git"
+    },
+    "bugs": {
+        "url": "https://github.com/shiye515/responsive-rem/issues"
+    },
+    "keywords": [
+        "responsive",
+        "rem",
+        "responsive-rem"
+    ],
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {}
+}
