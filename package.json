@@ -1,6 +1,6 @@
 {
   "name": "responsive-rem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mobile responsive layout lib",
   "main": "dist/responsive-rem.min.js",
   "author": "shiye515 <shiye515@gmail.com>",
