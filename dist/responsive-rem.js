@@ -30,13 +30,13 @@
         var scale = 1 / dpr;
 
         metaEl.setAttribute('content', [
-            'width=device-width,initial-scale=',
+            'initial-scale=',
             scale,
             ', maximum-scale=',
             scale,
             ', minimum-scale=',
             scale,
-            ', user-scalable=no'
+            ', user-scalable=yes' // setUseWideViewport(true)和user-scalable=no 冲突？待验证
         ].join(''));
 
         if (docEl.firstElementChild) {
