@@ -26,7 +26,9 @@
             metaEl.setAttribute('name', 'viewport');
         }
 
-        var dpr = window.devicePixelRatio;
+        // 主要解决0.5像素边框的问题，所以dpr超过2边框就太细了
+        var dpr = Math.min(window.devicePixelRatio, 2);
+
         var scale = 1 / dpr;
 
         metaEl.setAttribute('content', [
